@@ -2,7 +2,9 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 
-const API = 'http://localhost:5000/api'
+
+const API = 'https://staffsync-api-qa7i.onrender.com/api'
+
 
 function App() {
   const [employees, setEmployees] = useState([])
